@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "jspdf": "^2.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "name": "1backend2",
+  "version": "1.0.0",
+  "description": "web lurah",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}

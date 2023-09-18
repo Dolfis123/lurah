@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dabeng/react-orgchart": "^1.0.3",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.10.5",
+    "draft-js": "^0.11.7",
+    "jspdf": "^2.5.1",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-organizational-chart": "^2.2.1",
+    "react-orgchart": "^1.0.5",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.14.1",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "vite": "^4.4.0"
+  }
+}
